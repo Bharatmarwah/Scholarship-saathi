@@ -1,0 +1,34 @@
+# Local notes and secrets
+PROJECT_NOTES.txt
+.env
+.env.*
+!.env.example
+*.local
+
+
+# Backend build output
+**/target/
+*.log
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+.vite/
+
+# Chunking review output
+**/.chunking/
+
+# Local API reference
+backend/api_documentation.md
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
